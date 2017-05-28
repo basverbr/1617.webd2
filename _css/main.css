@@ -1,0 +1,269 @@
+/* colours
+
+blue/gray: #39465B
+orange: #F7931E
+
+*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background-color: rgba(241,241,241,0.92);
+ 
+}
+
+/*    FONTS    */
+
+p {
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+}
+
+h1 {
+	color: white;
+	font-family: 'Arail', sans-serif;
+}
+
+
+
+h3 {
+	font-family: 'Arial', sans-serif;
+	font-size: 1.5em;
+	
+}
+
+
+a {
+	text-decoration: none;
+}
+
+
+/*      BASE       */
+
+
+#header {
+	background-image: url(../_img/headerimage.jpg);
+    padding-right: 100%;
+    margin-right: -100%;
+    padding-left: 100%;
+    margin-left: -100%;
+    margin-bottom: 0;
+    height: 500px;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position-y: 77%;
+}
+
+#header h1 {
+	color: black;
+	margin-top: 20px;
+}
+
+#header img{
+	width: 35%;
+    position: relative;
+    top: 70px;
+    left: 420px;
+}
+
+
+
+#nav{
+	clear: both;
+	margin-left: -40px;
+	margin-top: 10px;
+	
+}
+
+ul {
+	list-style-type: none;
+}
+
+#nav li {
+	display: inline-block;
+}
+
+#nav li a{
+	padding: 20px 30px 20px 30px;
+	background-color: black;
+	color: white;
+
+}
+
+#sidenav li a{
+	color: #F7931E;
+    position: fixed;
+    left: 20px;
+}
+
+#sidenav img{
+	width: 117px;
+    position: fixed;
+    left: 20px;
+}
+
+#linkhome , #linkprojects {
+	font-size: 1em;
+	margin-top: 35px;
+}
+
+#linkhome {
+	top: 40px;
+}
+
+#linkprojects{
+	top: 70px;
+}
+#latest_projects {
+	background-color: #39465B;
+	padding-right: 100%;
+	margin-right: -100%;
+	padding-left: 100%;
+	margin-left: -100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	z-index: 2;
+	
+}
+
+#latest_projects h2 {
+	font-size: 2.5em;
+	color: white;
+	text-decoration: underline;
+}
+
+#latest_projects h6 {
+	color: #858585;
+	font-style: italic;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+#latest_projects h3, h6, p {
+	color: white;
+	text-align: left;
+	margin: 23px 0px 0px 20px;
+}
+
+#latest_projects a {
+	color: white;
+	text-decoration: underline;
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	margin-top: 30px;
+}
+#latest_projects img {
+	
+	float: left;
+	clear: both;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	margin-top: 28px;
+}
+
+#services h3, #services p{
+	color: black;
+	margin: 0;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#services img{
+	width: 100px;
+	margin: auto;
+	margin-left: 130px;
+
+}
+
+
+#service_logo, #service_huisstijl, #service_webdesign, #service_advies {
+	margin-top: 50px;
+	margin-left: 110px;
+}
+
+
+footer{
+	background-color: #39465B;
+	color:#F7931E;
+	text-decoration: none;
+	list-style: none;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 50px;
+}
+
+footer p{
+	text-align: center;
+}
+
+.projects {
+	background-color: #39465B;
+	padding-right: 100%;
+	margin-right: -100%;
+	padding-left: 100%;
+	margin-left: -100%;
+}
+.projects img{
+	width: 100%;
+}
+
+.projects h1{
+	color: #F7931E;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	font-size: 2.5em;
+	
+}
+
+.projects a{
+	color: black;
+	font-family: 'Arial', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 50px;
+
+}
+
+.overlay {
+ 	position: absolute;
+    bottom: 0;
+    left: 12px;
+    right: 0;
+    background-color: rgba(247,147,30,0.79);
+    overflow: hidden;
+    width: 97.9%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.klant:hover .overlay {
+  height: 100%;
+}
+
+
+.project_indepth img{
+	width: 100%;
+} 
+
+.project_indepth h2{
+	padding: 50px 10px;
+	color: black;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 3.5em;
+	font-family: 'Roboto' , sans-serif;
+	font-variant: light;
+}
+
+
